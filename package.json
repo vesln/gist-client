@@ -5,6 +5,7 @@
   , "keywords": ["keyword"]
   , "author": "Veselin Todorov <hi@vesln.com>"
   , "dependencies": {
+      "async": "0.1.15"
   }
   , "devDependencies": {
       "mocha": "0.x.x"
