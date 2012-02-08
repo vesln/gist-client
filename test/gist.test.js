@@ -30,7 +30,7 @@ describe('Gist', function() {
       gist.publish(function(err) {});
     });
     
-    it('should return error if there was an erro while reading files', function(done) {
+    it('should return an error if there was one while reading files', function(done) {
       var gist = new Gist(['foo.txt', 'bar.txt']);
       gist.fileReader.stub('read').and.replace(function(files, cb) {
         cb(new Error('Foo'));
