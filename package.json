@@ -1,5 +1,5 @@
 {
-    "name": "gist"
+    "name": "gist-client"
   , "version": "0.0.0"
   , "description": "Description"
   , "keywords": ["keyword"]
@@ -13,13 +13,13 @@
   }
   , "repository" : {
       "type" : "git"
-    , "url" : "http://github.com/vesln/gist.git"
+    , "url" : "http://github.com/vesln/gist-client.git"
   }
-  , "homepage": "http://github.com/vesln/gist"
+  , "homepage": "http://github.com/vesln/gist-client"
   , "scripts": {
       "test": "make test"
   }
-  , "main": "./lib/gist.js"
+  , "main": "./lib/gist-client.js"
   , "engines": { 
       "node": ">= 0.6.0"
   }

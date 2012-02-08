@@ -1,6 +1,6 @@
-[![Build Status](https://secure.travis-ci.org/vesln/gist.png)](http://travis-ci.org/vesln/gist)
+[![Build Status](https://secure.travis-ci.org/vesln/gist-client.png)](http://travis-ci.org/vesln/gist-client)
 
-# gist
+# gist-client
 
 ## Description
 
@@ -14,13 +14,13 @@
 ## Install
 
 ```
-$ npm install gist
+$ npm install gist-client
 ```
 
 ## Tests
 
 ```
-$ cd gist
+$ cd gist-client
 $ npm install
 $ make test
 ```
